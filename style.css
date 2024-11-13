@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("/amalogo.png");
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* -----box2------ */
+.addr-one{
+    color:#cccccc;
+    font-size:o.85rem;
+    margin-left: 15px;
+}
+.addr-two{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    
+}
+/* 
+box3 */
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+
+.type-area{
+    border: none;
+    width: 100%;/*isse is ne jitni bhi kahli jaga thi wo cover karli or humay bs "ALL" or "icon" ko sat karna hoga */
+    font-size:1rem;
+}
+
+.search-icon{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size:1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box4 */
+span{
+    font-size: 0.7rem;
+
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+/* box6 */
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    display: flex;
+    align-items: end;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* -------------------------panel---------------------------------------------------------- */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.panel-options p{
+   
+   margin-left: 15px;
+   display: inline;
+}
+.panel-options{
+    border: none;
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+.panel-deals{
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.border2{
+
+    border:1.5px solid transparent;
+    padding: 8px;
+
+}
+.border2:hover{
+    border:1.5px solid white;
+    padding: 8px;
+}
+
+/* ------------------------------herosection */
+
+.hero-section{
+    height: 400px;
+    background-image: url("/hero2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* ---------------------shopingare */
+
+.shoping-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 242, 210);
+    
+    
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:15px;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.boxContent{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.boxContent a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* --------------------footer */
+footer{
+    margin-top: 15px;
+
+}
+
+.foot-1{
+    background-color: #37475a; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.go_up{
+    font-size: 0.85rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* <!-- ------------------------------- */
+.foot-2{
+    height:400px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+ul{
+    margin-top: 45px;
+}
+
+ul a{
+    display: block;
+    
+    color: #dddddd;
+    margin-top: 20px;
+}
+
+/* 
+--------Foot 3---------------- */
+.foot-3{
+    height:70px;
+    color: white;
+    background-color: #222f3d;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-1{
+    height: 50px;
+    width: 100px;
+    background-image: url("/amalogo.png");
+    background-size: cover;
+}
+
+/* ----------Foot 4--------------- */
+.foot-4{
+    height: 80px;
+    background-color:#0f1111 ;
+    color: white;
+   
+   font-size: 0.75rem;
+  
+   
+}
+
+.pglinks{
+    display: flex;
+    justify-content:center ;
+   align-items: center;
+    padding-top: 20px;
+   
+}
+
+.copyrigth{
+    display: flex;
+    justify-content:center ;
+   align-items: center;
+    padding-top: 5px;
+
+}
